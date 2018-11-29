@@ -7,6 +7,7 @@ const htmlPlugin = new HtmlWebPackPlugin({
 
 module.exports = {
   output: {
+    path: "D:\\chat\\build",
     publicPath: "/"
   },
   module: {

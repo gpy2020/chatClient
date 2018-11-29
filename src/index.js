@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import Wrapper from "./components/Wrapper";
 import reducer from "./reducers";
+import "./index.css";
 
 const store = createStore(
   reducer,
